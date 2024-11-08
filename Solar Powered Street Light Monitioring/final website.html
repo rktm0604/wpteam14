@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Powered Street Light Monitoring System</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        body {
+            background-image: url('streetlight-background.jpg'); /* Replace with the actual image path */
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        .login-container {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+        .logo img {
+            width: 100px; /* Adjust logo size */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo" >
+            <img src="streetlight.jpg" alt="Solar Street Light Logo">
+        </div>
+        <h2>Solar Powered Street Light Monitoring</h2>
+        <p>Monitor your street lights' performance in real-time</p>
+        <form id="loginForm" action="dashboard.html">
+            <div class="input-container">
+                <input type="text" id="emailOrUsername" placeholder="Email or Username" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" placeholder="Password" required>
+                <i class="fas fa-lock"></i>
+            </div>
+            <button type="submit">Login</button>
+            <p><a href="forgot.html">Forgot Password?</a></p>
+            <p><a href="register.html">Not registered? Create an Account</a></p> 
+        </form>
+    </div>
+
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script>  -->
+    <script src="script1.js"></script> 
+</body>
+</html>
